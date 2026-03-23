@@ -1,65 +1,60 @@
-# House-Price-Prediction
-Machine Learning project to predict house prices using regression models
-# House Price Prediction
-# Project Objective
+# House Price Prediction using Machine Learning
 
-Build a machine learning model to predict house prices based on various property features.
+## 📌 Problem Statement
+The objective of this project is to predict house prices based on features such as area, location, number of rooms, and property characteristics.
 
-# Dataset Overview
+---
 
-Target Variable: House Price
+## 📊 Dataset
+- Housing dataset with numerical and categorical features
+- Target: SalePrice
 
-Features: Area, Bedrooms, Bathrooms, Location, etc. (modify based on your dataset)
+---
 
-# Technologies Used
+## ⚙️ Approach
+- Data cleaning and preprocessing
+- Feature engineering (TotalSF, HouseAge)
+- Log transformation of target variable
+- One-hot encoding
+- Model training and evaluation
 
-Python
+---
 
-Pandas
+## 🤖 Models Used
+- Linear Regression
+- Random Forest
+- Gradient Boosting
 
-NumPy
+---
 
-Matplotlib
+## 📈 Evaluation Metrics
+- R² Score
+- RMSE
+- Cross Validation
 
-Seaborn
+---
 
-Scikit-Learn
+## 📊 Results
+- Gradient Boosting achieved best performance
+- Improved accuracy after feature engineering and tuning
 
-# Models Used
+---
 
-Linear Regression
+## 💼 Business Insights
+- Overall quality and living area strongly influence price
+- Garage and basement increase property value
 
-Random Forest Regressor
+---
 
-XGBoost (if used)
+## 💡 Business Recommendations
+- Invest in high-quality construction
+- Focus on larger living areas
+- Consider location and amenities for higher resale value
 
-# Model Performance
+---
 
-Best Model: Random Forest
-
-R2 Score: (add your final score)
-
-RMSE: (add your RMSE)
-
-# Final Model Selection
-
-The best-performing model was selected based on:
-
-Highest R² score
-
-Lowest RMSE
-
-Stable cross-validation performance
-
-# Business Impact
-
-This model can help:
-
-Real estate agencies estimate property prices
-
-Buyers understand fair market value
-
-Investors make data-driven decisions
+## 🚀 Conclusion
+This project demonstrates how machine learning can accurately predict house prices and support real estate decision-making.
 
 # Author
 
